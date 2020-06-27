@@ -5,4 +5,12 @@
     <string name="login">Iniciar secion</string>
     <string name="encabezado">Elaborado por Helmut Colindres</string>
     <string name="registrar">Registrar</string>
+    <string name="txtRegistrar">Crear una cuenta</string>
+    <string name="txt_nombre">Nombre</string>
+    <string name="txt_apellido">Apellido</string>
+    <string name="txt_email">Email</string>
+    <string name="txt_password">Password</string>
+    <string name="btn_Cancelar">Cancelar</string>
+    <string name="menu_perfil">Perfil</string>
+    <string name="menu_sesion">cerrar secion</string>
 </resources>

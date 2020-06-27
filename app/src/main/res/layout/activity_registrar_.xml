@@ -9,35 +9,57 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" android:orientation="vertical"
-        android:padding="15dp"
-        android:layout_margin="15dp">
-
-        <ImageView
-            android:layout_width="150dp"
-            android:layout_height="100dp"
-            android:src="@drawable/usuario"
-            android:padding="15dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txtRegistrar"
+            android:fontFamily="sans-serif-black"
+            android:textSize="20dp"
+            android:textColor="#fff"
             android:layout_gravity="center_horizontal"
-            android:layout_margin="20dp"/>
+            android:layout_margin="15dp"
+            android:textAllCaps="true"/>
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:hint="@string/txt_nombre"
+            android:textColorHint="#fff"
+            android:textSize="20dp"
+            android:textColor="#fff"
+            android:layout_margin="15dp"
+            android:id="@+id/txt_nombre"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/txt_apellido"
+            android:textColorHint="#fff"
+            android:textSize="20dp"
+            android:textColor="#fff"
+            android:layout_margin="15dp"
+            android:id="@+id/txt_apellido"/>
+
+        <EditText
+            android:id="@+id/text_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
             android:hint="@string/txt_email"
+            android:inputType="textEmailAddress"
             android:textColor="#fff"
             android:textColorHint="#fff"
-            android:layout_margin="20dp"
-            android:padding="15dp"
-            android:inputType="textEmailAddress"/>
+            android:textSize="20dp" />
+
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/txt_password"
-            android:textColor="#fff"
             android:textColorHint="#fff"
-            android:layout_margin="20dp"
-            android:padding="15dp"
-            android:inputType="textPassword"/>
+            android:textSize="20dp"
+            android:textColor="#fff"
+            android:layout_margin="15dp"
+            android:id="@+id/text_password" />
 
 
         <LinearLayout
@@ -48,11 +70,10 @@
             android:gravity="center"
             android:layout_gravity="center_horizontal">
             <Button
-                android:id="@+id/btn_login"
                 android:layout_weight="1"
                 android:layout_width="250dp"
                 android:layout_height="wrap_content"
-                android:text="@string/login"
+                android:text="@string/txtRegistrar"
                 android:background="@drawable/btn_login"
                 android:textColor="#fff"
                 android:textSize="16dp"
@@ -60,11 +81,10 @@
                 android:layout_marginRight="15dp"/>
 
             <Button
-                android:id="@+id/btn_registrar"
                 android:layout_weight="1"
                 android:layout_width="250dp"
                 android:layout_height="wrap_content"
-                android:text="@string/registrar"
+                android:text="@string/btn_Cancelar"
                 android:background="@drawable/btn_login"
                 android:fontFamily="sans-serif-black"
                 android:textColor="#fff"
@@ -74,4 +94,5 @@
 
         </LinearLayout>
     </LinearLayout>
+
 </ScrollView>

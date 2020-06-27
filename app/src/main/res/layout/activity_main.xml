@@ -32,7 +32,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textColor="#ffffff"
-        android:text="@string/texto"
+        android:text="@string/textto2"
         android:textAllCaps="true"
         android:layout_gravity="center_horizontal"
         android:fontFamily="sans-serif-black"
@@ -51,16 +51,7 @@
         android:background="@drawable/boton"
         android:layout_gravity="center_horizontal"/>
 
-  <TextView
-      android:layout_width="wrap_content"
-      android:layout_height="wrap_content"
-      android:text="@string/encabezado"
-      android:textColor="#fff"
-      android:textAllCaps="true"
-    android:layout_gravity="center_horizontal"
-      android:fontFamily="sans-serif"
-      android:textSize="16dp"
-      android:padding="10dp"/>
+
 </LinearLayout>
 
 </ScrollView>
