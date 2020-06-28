@@ -9,7 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Actualizar_Perfil_Activity"></activity>
+        <activity android:name=".Lista_Inventario_Activity"></activity>
+        <activity android:name=".Lista_Usuarios_Activity" />
+        <activity android:name=".Agregar_Inventario_Activity" />
+        <activity android:name=".Actualizar_Perfil_Activity" />
         <activity android:name=".PerfilActivity" />
         <activity android:name=".Registrar_Activity" />
         <activity

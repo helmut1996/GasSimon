@@ -73,6 +73,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="120dp"/>
                             <Button
+                                android:id="@+id/btn_agregar"
                                 android:layout_gravity="top|center"
                                 android:layout_width="wrap_content"
                                 android:layout_height="40dp"
@@ -102,6 +103,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="120dp"/>
                             <Button
+                                android:id="@+id/btn_inventario"
                                 android:layout_gravity="top|center"
                                 android:layout_width="wrap_content"
                                 android:layout_height="40dp"
@@ -137,6 +139,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="120dp"/>
                             <Button
+                                android:id="@+id/btn_usuarios"
                                 android:layout_gravity="top|center"
                                 android:layout_width="wrap_content"
                                 android:layout_height="40dp"
@@ -166,6 +169,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="120dp"/>
                             <Button
+                                android:id="@+id/btn_info"
                                 android:layout_gravity="top|center"
                                 android:layout_width="wrap_content"
                                 android:layout_height="40dp"
