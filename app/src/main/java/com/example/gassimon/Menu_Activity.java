@@ -3,6 +3,7 @@ package com.example.gassimon;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.app.Dialog;
 import android.content.ClipData;
 import android.content.DialogInterface;
 import android.content.Intent;
@@ -68,10 +69,8 @@ public class Menu_Activity extends AppCompatActivity implements View.OnClickList
 
 //metodo para venta emergente
     private void mostrarDialog() {
-        AlertDialog.Builder alert =new AlertDialog.Builder(this);
-        alert.setIcon(R.drawable.logo1);
-        alert.setTitle("Gasimon");
-        alert.setMessage("Esta aplicacion fue creada por Helmut Josue Colindres Brenes ");
-        alert.create().show();
+        Dialog dialog = new Dialog(Menu_Activity.this);
+        dialog.setContentView(R.layout.dialog_info);
+        dialog.show();
     }
 }
