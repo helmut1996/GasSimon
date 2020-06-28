@@ -13,4 +13,8 @@
     <string name="btn_Cancelar">Cancelar</string>
     <string name="menu_perfil">Perfil</string>
     <string name="menu_sesion">cerrar secion</string>
+    <string name="txt_usuario">usuario</string>
+    <string name="txt_actualizar">Actualizar</string>
+    <string name="txt_eliminar">Eliminar</string>
+    <string name="txt_actualizar_Perfil">Actualizar Perfil</string>
 </resources>
