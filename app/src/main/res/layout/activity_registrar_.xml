@@ -9,7 +9,7 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:orientation="vertical">
         <TextView
             android:layout_width="wrap_content"
@@ -17,7 +17,7 @@
             android:text="@string/txtRegistrar"
             android:fontFamily="sans-serif-black"
             android:textSize="20dp"
-            android:textColor="#fff"
+            android:textColor="#000"
             android:layout_gravity="center_horizontal"
             android:layout_margin="15dp"
             android:textAllCaps="true"/>
@@ -25,41 +25,48 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/txt_nombre"
-            android:textColorHint="#fff"
+            android:background="#fff"
+            android:textColorHint="#000"
+            android:padding="10dp"
             android:textSize="20dp"
-            android:textColor="#fff"
+            android:textColor="#000"
             android:layout_margin="15dp"
             android:id="@+id/txt_nombre"/>
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/txt_apellido"
-            android:textColorHint="#fff"
+            android:textColorHint="#000"
+            android:padding="10dp"
+            android:background="#fff"
             android:textSize="20dp"
-            android:textColor="#fff"
+            android:textColor="#000"
             android:layout_margin="15dp"
             android:id="@+id/txt_apellido"/>
 
         <EditText
-            android:id="@+id/text_email"
+            android:id="@+id/text_usuario"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="15dp"
-            android:hint="@string/txt_email"
-            android:inputType="textEmailAddress"
-            android:textColor="#fff"
-            android:textColorHint="#fff"
+            android:hint="@string/txt_usuario"
+            android:textColor="#000"
+            android:textColorHint="#000"
+            android:padding="10dp"
+            android:background="#fff"
             android:textSize="20dp" />
 
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/txt_password"
-            android:textColorHint="#fff"
+            android:textColorHint="#000"
             android:textSize="20dp"
-            android:textColor="#fff"
+            android:textColor="#000"
+            android:padding="10dp"
+            android:background="#fff"
             android:layout_margin="15dp"
-            android:id="@+id/text_password" />
+            android:id="@+id/text_pass2" />
 
 
         <LinearLayout
@@ -74,8 +81,8 @@
                 android:layout_width="250dp"
                 android:layout_height="wrap_content"
                 android:text="@string/txtRegistrar"
-                android:background="@drawable/btn_login"
-                android:textColor="#fff"
+                android:background="@drawable/boton"
+                android:textColor="#000"
                 android:textSize="16dp"
                 android:fontFamily="sans-serif-black"
                 android:layout_marginRight="15dp"/>
@@ -85,9 +92,9 @@
                 android:layout_width="250dp"
                 android:layout_height="wrap_content"
                 android:text="@string/btn_Cancelar"
-                android:background="@drawable/btn_login"
+                android:background="@drawable/boton"
                 android:fontFamily="sans-serif-black"
-                android:textColor="#fff"
+                android:textColor="#000"
                 android:textSize="16dp"
                 android:layout_marginLeft="15dp"/>
 

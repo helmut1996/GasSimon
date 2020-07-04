@@ -21,22 +21,25 @@
             android:layout_gravity="center_horizontal"
             android:layout_margin="20dp"/>
         <EditText
+            android:id="@+id/text_usuario"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="@string/txt_email"
-            android:textColor="#fff"
-            android:textColorHint="#fff"
+            android:hint="@string/txt_usuario"
+            android:textColor="#000"
+            android:textColorHint="#000"
             android:layout_margin="20dp"
-            android:padding="15dp"
-            android:inputType="textEmailAddress"/>
+            android:background="#fff"
+            android:padding="10dp" />
         <EditText
+            android:id="@+id/text_pass"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/txt_password"
-            android:textColor="#fff"
-            android:textColorHint="#fff"
+            android:textColor="#000"
+            android:textColorHint="#000"
             android:layout_margin="20dp"
-            android:padding="15dp"
+            android:padding="10dp"
+            android:background="#fff"
             android:inputType="textPassword"/>
 
 
@@ -53,8 +56,8 @@
                 android:layout_width="250dp"
                 android:layout_height="wrap_content"
                 android:text="@string/login"
-                android:background="@drawable/btn_login"
-                android:textColor="#fff"
+                android:background="@drawable/boton"
+                android:textColor="#000"
                 android:textSize="16dp"
                 android:fontFamily="sans-serif-black"
                 android:layout_marginRight="15dp"/>
@@ -65,9 +68,9 @@
                 android:layout_width="250dp"
                 android:layout_height="wrap_content"
                 android:text="@string/registrar"
-                android:background="@drawable/btn_login"
+                android:background="@drawable/boton"
                 android:fontFamily="sans-serif-black"
-                android:textColor="#fff"
+                android:textColor="#000"
                 android:textSize="16dp"
                 android:layout_marginLeft="15dp"/>
 
