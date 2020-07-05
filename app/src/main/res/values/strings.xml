@@ -20,4 +20,5 @@
     <string name="btn_Aceptar">Aceptar</string>
     <string name="txt_Dialog">Esta es una aplicacion para llevar el control de Inventario GasSimon creada por Helmut Josue Colindres Brenes</string>
     <string name="list_inventario">Lista de Inventario</string>
+    <string name="list_usuarios">Lista de usuarios</string>
 </resources>

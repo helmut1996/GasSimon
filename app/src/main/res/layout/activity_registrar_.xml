@@ -31,7 +31,7 @@
             android:textSize="20dp"
             android:textColor="#000"
             android:layout_margin="15dp"
-            android:id="@+id/txt_nombre"/>
+            android:id="@+id/txt_nombre2"/>
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -42,10 +42,10 @@
             android:textSize="20dp"
             android:textColor="#000"
             android:layout_margin="15dp"
-            android:id="@+id/txt_apellido"/>
+            android:id="@+id/txt_apellido2"/>
 
         <EditText
-            android:id="@+id/text_usuario"
+            android:id="@+id/text_usuario2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="15dp"
@@ -60,6 +60,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/txt_password"
+            android:inputType="textPassword"
             android:textColorHint="#000"
             android:textSize="20dp"
             android:textColor="#000"
@@ -77,6 +78,8 @@
             android:gravity="center"
             android:layout_gravity="center_horizontal">
             <Button
+
+                android:id="@+id/btn_crear_cuenta"
                 android:layout_weight="1"
                 android:layout_width="250dp"
                 android:layout_height="wrap_content"
@@ -88,6 +91,7 @@
                 android:layout_marginRight="15dp"/>
 
             <Button
+                android:id="@+id/btn_cancelar"
                 android:layout_weight="1"
                 android:layout_width="250dp"
                 android:layout_height="wrap_content"
