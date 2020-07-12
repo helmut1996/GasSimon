@@ -55,9 +55,9 @@ public class Menu_Activity extends AppCompatActivity implements View.OnClickList
             case R.id.btn_agregar:
                 startActivity(new Intent(getApplicationContext(),Agregar_Inventario_Activity.class));
                 break;
-            case R.id.btn_inventario:
+            /*case R.id.btn_inventario:
                 startActivity(new Intent(getApplicationContext(),Lista_Inventario_Activity.class));
-                break;
+                break;*/
             case R.id.btn_usuarios:
                 startActivity(new Intent(getApplicationContext(),Lista_Usuarios_Activity.class));
                 break;
